@@ -37,6 +37,7 @@ p.error-message {
   padding: 10px;
   border: 0.1rem solid #ffffff;
   background: transparent;
+  margin: 20px;
 }
 
 input {
