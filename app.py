@@ -4,7 +4,7 @@ import locale
 
 app = Flask(__name__)
 app.static_folder = 'static'
-locale.setlocale(locale.LC_ALL, 'pt_BR.UTF-8')
+locale.setlocale(locale.LC_ALL, 'pt_BR')
 
 
 @app.route('/', methods=['GET', 'POST'])
