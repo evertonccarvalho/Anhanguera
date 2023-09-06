@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request
-from imc import calculate_imc, interpret_imc, get_imc_color
+from .static.imc import calculate_imc, interpret_imc, get_imc_color
 
 app = Flask(__name__)
 app.static_folder = 'static'
@@ -25,5 +25,5 @@ def calculate_and_interpret_imc():
             return render_template('index.html', error_message=error_message)
     return render_template('index.html', error_message=None)
 
-if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=False)
+if __name__ == '__main__':   
+    app.run(host="0.0.0.0", port=5000)
