@@ -29,6 +29,7 @@ h1 {
 h4 {
   color: #ffffff;
   font-size: 14px;
+  margin: 5px;
 }
 p.error-message {
   color: red;
