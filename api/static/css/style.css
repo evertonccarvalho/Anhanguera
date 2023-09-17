@@ -21,7 +21,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
 }
 h1 {
   font-weight: 900;
@@ -29,7 +28,7 @@ h1 {
 }
 h4 {
   color: #ffffff;
-  font-size: 24px;
+  font-size: 14px;
 }
 p.error-message {
   color: red;
@@ -53,31 +52,8 @@ input {
   border: 0.1rem solid rgb(0, 98, 218);
   color: rgb(173, 173, 173);
 
-  font-size: 25px;
+  font-size: 20px;
   max-width: 200px;
-}
-
-button {
-  width: 100%;
-  padding: 1rem;
-  font-size: 25px;
-  font-weight: 900;
-  border: 0.1rem solid rgb(0, 98, 218);
-  border-top-color: rgb(0, 98, 218);
-  border-right-color: rgb(0, 98, 218);
-  border-bottom-color: rgb(0, 98, 218);
-  border-left-color: rgb(0, 98, 218);
-  color: rgb(255, 255, 255);
-  background: rgb(0, 98, 218);
-  margin: 1rem 0px;
-  cursor: pointer;
-  transition: all 0.2s ease 0s;
-}
-
-button:hover {
-  color: rgb(0, 98, 218);
-  border-color: rgb(0, 98, 218);
-  background: transparent;
 }
 
 button:hover {
