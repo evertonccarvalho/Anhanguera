@@ -9,6 +9,14 @@ body {
   align-items: center;
   height: 100vh;
 }
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 8rem var(--maxContainerWidth) 8rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 .title {
   display: flex;
   justify-content: center;
@@ -45,7 +53,7 @@ input {
   border: 0.1rem solid rgb(0, 98, 218);
   color: rgb(173, 173, 173);
 
-  font-size: 40px;
+  font-size: 25px;
   max-width: 200px;
 }
 
@@ -70,4 +78,32 @@ button:hover {
   color: rgb(0, 98, 218);
   border-color: rgb(0, 98, 218);
   background: transparent;
+}
+
+button:hover {
+  color: rgb(0, 98, 218);
+  border-color: rgb(0, 98, 218);
+  background: #ffffff;
+  transition: ease-in-out 1s;
+}
+
+button {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  transition: all 0.2s ease 0s;
+  border: 0.1rem solid rgb(0, 98, 218);
+  background: transparent;
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.75rem;
+  display: flex;
+
+  font-size: 1rem;
+  font-family: Montserrat;
+  font-style: normal;
+
+  line-height: normal;
+  color: rgb(0, 98, 218);
 }
